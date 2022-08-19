@@ -1,0 +1,25 @@
+[build-system]
+build-backend = 'mesonpy'
+requires = ['meson-python']
+
+[project]
+name = "meson_cpython"
+description="Simple CPython test"
+authors = [{name="Alexis Jeandet", email="alexis.jeandet@member.fsf.org"}]
+summary = "Simple CPython test"
+requires-python=">=3.7"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+dependencies = []
+dynamic = [
+  'version',
+]
